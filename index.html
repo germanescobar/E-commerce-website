@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/custom_bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/flat-ui.min.css">
-		<link href="dist/fonts/glyphicons/flat-ui-icons-regular.svg" rel="stylesheet">
+	
 		<meta charset ="utf-8">
 	</head>
 
@@ -15,43 +15,32 @@
 		<nav class="navbar navbar-inverse" id="nav-bar">
 			<div class="container">
 
-				
-					
-					
-				<!--ESTADO HAMBURGUER DEL NAVBAR-->	
-				<div class="row">
-					
-					<div class="nav-header">
+				<!--ESTADO HAMBURGUER DEL NAVBAR-->		
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-ppal" id="btn-hm" aria-expanded="false">
+					  <span class="sr-only">Navegación Hamburguesa</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>		
 
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-ppal" id="btn-hm">
-						  <span class="sr-only">Navegación Hamburguesa</span>
-						  <span class="icon-bar"></span>
-						  <span class="icon-bar"></span>
-						  <span class="icon-bar"></span>
-						</button>		
-					</div>
-
-
-					<!--ESTADO NORMAL DEL NAVBAR-->
-
-					<div class="collapse navbar-collapse" id="menu-ppal">
-						<a class="navbar-brand" href="#">E-commerce</a>		
-					
-						<ul class="nav navbar-nav navbar-right">
-							<li>
-								<a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true">   Canasta</span></a>
-							</li>
-							<li>
-								<a href="#"><span class="glyphicon" aria-hidden="true">Salir</span></a>
-							</li>
-						</ul>
-					</div>	
+					<a class="navbar-brand" href="#">E-commerce</a>
 				</div>
+
+				<!--ESTADO NORMAL DEL NAVBAR-->
+				<div class="collapse navbar-collapse" id="menu-ppal">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true">   Canasta</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon" aria-hidden="true">Salir</span></a>
+						</li>
+					</ul>
+				</div>	
 		
 			</div>	<!--FIN CONTAINER-->					
 		</nav>
-
-
 		
 		<div class="container">
 			
